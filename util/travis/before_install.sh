@@ -9,7 +9,7 @@ if [ $CC = "clang" ]; then
 	sudo apt-get install clang
 fi
 
-sudo apt-get install cmake libgd2-noxpm-dev libsqlite3-dev \
+sudo apt-get install cmake libfreeimage-dev libsqlite3-dev \
 	p7zip-full
 
 # I love how nothing ever works correctly with precise
